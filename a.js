@@ -1,10 +1,5 @@
 console.log('hello, world!!');
 
-dummycode
-dummycode
-dummycode
-dummycode
-dummycode
-dummycode
+nodummycode
 
 console.log('another loggin');

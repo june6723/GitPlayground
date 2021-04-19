@@ -51,3 +51,6 @@ history가 쌓임!
 - git pull </br> master 브랜치에서 pull (git pull하면 기본이 항상 master)
 - git pull origin \<branch-name\> </br> 원격지의 해당 브랜치 네임을 pull
 - git push origin \<branch-name\> </br> 원격지의 해당 브랜치에 push
+
+## git rebase
+- git rebase -i HEAD~2 </br> HEAD(맨앞 커밋)에서 2번째 커밋까지 합치겠다 (interactive 모드로)

@@ -25,14 +25,14 @@
 - git log --graph --oneline
 
 ## git reset
-- hard
+- **git reset --hard HEAD~** </br> 맨 위 커밋을 없앤다
 - soft
 - mixed
 <br/> history가 없어진다
 ## git revert
 history가 쌓임!
 ## git branch
-- git branch </br> 로컬의 브랜치 목록 확인
+- git branch </> 로컬의 브랜치 목록 확인
 - git branch -r </br> 원격지의 브랜치 목록 확인
 - git branch -a </br> local / remote 양쪽 브랜치 모두 확인
 - git branch -d \<branch name\> </br> 로컬에서 브랜치 삭제

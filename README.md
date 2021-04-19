@@ -10,6 +10,8 @@
 - **git add --all** </br>변경한 모든 파일 추가
 ## git commit
 - **git commit -am "..."**</br>추가한 파일을 커밋 ( "" 안에는 원하는 대로 적으면 된다, -am에서 a는 연결된 repository인데 빼도 무관)
+- **git commit --amend**</br>커밋 메세지 수정
+
 ## git remote
 - **git remote add origin \<git-remote-url\>** </br>해당 url로 원격지 설정
 
@@ -23,14 +25,14 @@
 - git log --graph --oneline
 
 ## git reset
-- hard
+- **git reset --hard HEAD~** </br> 맨 위 커밋을 없앤다
 - soft
 - mixed
 <br/> history가 없어진다
 ## git revert
 history가 쌓임!
 ## git branch
-- git branch </br> 로컬의 브랜치 목록 확인
+- git branch </> 로컬의 브랜치 목록 확인
 - git branch -r </br> 원격지의 브랜치 목록 확인
 - git branch -a </br> local / remote 양쪽 브랜치 모두 확인
 - git branch -d \<branch name\> </br> 로컬에서 브랜치 삭제
@@ -49,3 +51,6 @@ history가 쌓임!
 - git pull </br> master 브랜치에서 pull (git pull하면 기본이 항상 master)
 - git pull origin \<branch-name\> </br> 원격지의 해당 브랜치 네임을 pull
 - git push origin \<branch-name\> </br> 원격지의 해당 브랜치에 push
+
+## git rebase
+- git rebase -i HEAD~2 </br> HEAD(맨앞 커밋)에서 2번째 커밋까지 합치겠다 (interactive 모드로)

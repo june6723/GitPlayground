@@ -10,6 +10,8 @@
 - **git add --all** </br>변경한 모든 파일 추가
 ## git commit
 - **git commit -am "..."**</br>추가한 파일을 커밋 ( "" 안에는 원하는 대로 적으면 된다, -am에서 a는 연결된 repository인데 빼도 무관)
+- **git commit --amend**</br>커밋 메세지 수정
+
 ## git remote
 - **git remote add origin \<git-remote-url\>** </br>해당 url로 원격지 설정
 

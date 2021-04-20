@@ -1,6 +1,16 @@
 # GitPlayground
 깃 관련 기능을 테스트해보고 경험하기 위한 Repo
 
+release 0.1.0 start
+
+deploy dev server
+
+QA
+
+bug fixed
+
+release 0.1.0 completed!!
+
 ## git init
 깃 초기화
 ## .gitignore

@@ -1,6 +1,12 @@
 # GitPlayground
 깃 관련 기능을 테스트해보고 경험하기 위한 Repo
 
+login ok
+
+regist coding...
+
+regist completed!!
+
 ## git init
 깃 초기화
 ## .gitignore

@@ -10,6 +10,11 @@ QA
 bug fixed
 
 release 0.1.0 completed!!
+login ok
+
+regist coding...
+
+regist completed!!
 
 ## git init
 깃 초기화

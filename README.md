@@ -9,6 +9,8 @@ QA
 
 bug fixed
 
+release 0.1.0 completed!!
+
 ## git init
 깃 초기화
 ## .gitignore
